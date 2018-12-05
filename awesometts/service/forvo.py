@@ -67,7 +67,7 @@ class Forvo(Service):
         if len(text) > 100:
             raise IOError("Input text is too long for the Forvo.")
 
-        from urllib2 import quote
+        from urllib.parse import quote
         url = 'https://apicorporate.forvo.com/api2/v1.1/d6a0d68b18fbcf26bcbb66ec20739492/word-pronunciations/word/%s/language/%s/order/rate-desc' % (
             quote(text.encode('utf-8')),
             quote(options['voice'])
