@@ -196,6 +196,7 @@ router = Router(
             ('espeak', service.ESpeak),
             ('festival', service.Festival),
             ('fluencynl', service.FluencyNl),
+            ('forvo', service.Forvo),
             ('google', service.Google),
             ('howjsay', service.Howjsay),
             ('imtranslator', service.ImTranslator),
@@ -214,7 +215,6 @@ router = Router(
             ('wiktionary', service.Wiktionary),
             ('yandex', service.Yandex),
             ('youdao', service.Youdao),
-            ('forvo', service.Forvo),
         ],
         dead=dict(
             ttsapicom="TTS-API.com has gone offline and can no longer be "

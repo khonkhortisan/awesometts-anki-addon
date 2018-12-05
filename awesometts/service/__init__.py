@@ -30,6 +30,7 @@ from .ekho import Ekho
 from .espeak import ESpeak
 from .festival import Festival
 from .fluencynl import FluencyNl
+from .forvo import Forvo
 from .google import Google
 from .howjsay import Howjsay
 from .imtranslator import ImTranslator
@@ -48,7 +49,6 @@ from .voicetext import VoiceText
 from .wiktionary import Wiktionary
 from .yandex import Yandex
 from .youdao import Youdao
-from .forvo import Forvo
 
 __all__ = [
     # common
@@ -63,6 +63,7 @@ __all__ = [
     'ESpeak',
     'Festival',
     'FluencyNl',
+    'Forvo',
     'Google',
     'Howjsay',
     'ImTranslator',
@@ -81,5 +82,4 @@ __all__ = [
     'Wiktionary',
     'Yandex',
     'Youdao',
-    'Forvo',
 ]
